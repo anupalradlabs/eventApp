@@ -1,4 +1,5 @@
 angular.module('app',[
 	'ngRoute',
-	'ngMaterial'
+	'ngMaterial',
+	'ui.materialize'
 ]);

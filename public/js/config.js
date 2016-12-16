@@ -1,10 +1,7 @@
-angular.module('app').config(['$httpProvider','$routeProvider',
-	function($httpProvider,$routeProvider){
+angular.module('app').config(['$routeProvider',
+	function($routeProvider){
 		$routeProvider.when('/',{
-			templateUrl:'view/events/list.html',
+			templateUrl:'/view/events/list.html',
 			controller:'List'
-		})
-		.otherwise({
-			redirectTo:'/'
 		});
 	}]);
